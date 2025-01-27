@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-cint main(){
+int main(){
     int a;
     scanf("%d",&a);
     if(a>0){
