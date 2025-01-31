@@ -3,10 +3,10 @@ int main(){
     float ,b,c;
     scanf("%f %f %f",&a,&b,&c);
     if((a+b>c)&&(a+c>b)&&(b+c>a)){
-        print("Valid");
+        printf("Valid");
     }
     else{
-        print("Invalid");
+        printf("Invalid");
     }
     return 0;
 }
