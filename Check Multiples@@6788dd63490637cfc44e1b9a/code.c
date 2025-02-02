@@ -5,7 +5,7 @@ int main(){
     if(b%a==0){
         printf("Yes");
     }
-    else{
+    else if(b%a!=0){
         printf("No");
     }
     return 0;
