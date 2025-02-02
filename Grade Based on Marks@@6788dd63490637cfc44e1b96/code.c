@@ -2,7 +2,10 @@
 int main(){
     int marks;
     scanf("%d",&marks);
-    if(marks>=90){
+    if(marks>100 || marks<0){
+        printf("Invalid marks");
+    }
+    else if(marks>=90){
         printf('A');
     }
     else if(marks<90) && (marks>=80){
