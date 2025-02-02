@@ -3,19 +3,19 @@ int main(){
     int marks;
     scanf("%d",&marks);
    if(marks>=90){
-        printf('A');
+        printf("A");
     }
     else if (marks>=80){
-        printf('B');
+        printf("B");
     }
     else if (marks>=70){
-        printf('C');   
+        printf("C");   
         }
     else if( marks>=60){
-        printf('D');
+        printf("D");
     }    
     else if(marks<60){
-        printf('F');
+        printf("F");
     }
     return 0;
 }
