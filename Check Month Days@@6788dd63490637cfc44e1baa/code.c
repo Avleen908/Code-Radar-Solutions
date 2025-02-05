@@ -13,7 +13,7 @@ int main(){
         printf("%d",31);
         break;
         case 4;
-        printf("%d",30):
+        printf("%d",30);
         break;
         case 5:
         printf("%d",31);
