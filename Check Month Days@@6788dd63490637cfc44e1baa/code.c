@@ -12,7 +12,7 @@ int main(){
         case 3:
         printf("%d",31);
         break;
-        case 4;
+        case 4:
         printf("%d",30);
         break;
         case 5:
