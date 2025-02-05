@@ -13,7 +13,7 @@ else if(a%5==0){
     }
     
 else{
-        printf("Neither");
+        printf("Not Divisible");
     }
     return 0;
 }
