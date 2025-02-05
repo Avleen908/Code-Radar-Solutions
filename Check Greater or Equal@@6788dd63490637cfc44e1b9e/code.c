@@ -2,10 +2,10 @@
 int main(){
     int a,b;
     scanf("%d,%d",&a,&b);
-    if((a>=b)||(b>=a)){
+    if(a>=b){
         printf("Yes");
     }
-    else{
+    else if(a<b){
         printf("No");
     }
     return 0;
