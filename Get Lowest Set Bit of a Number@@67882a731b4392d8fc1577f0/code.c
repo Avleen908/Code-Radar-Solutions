@@ -16,7 +16,7 @@ int findLowestSetBit(int num) {
 
 int main() {
     int num;
-    printf("Enter an integer: ");
+
     scanf("%d", &num);
 
     int position = findLowestSetBit(num);
