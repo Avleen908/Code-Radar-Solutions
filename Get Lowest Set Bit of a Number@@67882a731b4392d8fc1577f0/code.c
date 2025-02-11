@@ -1,17 +1,30 @@
 #include <stdio.h>
-int main(){
-    int num,position=1;
-    scanf("%d",&num);
-    if(num==0){
-        printf("0\n");
-        return 0;
-    }
-    while((num & 1)==0){
-        num>>=1;
-        position++;
-       
-    }
-    printf("%d",position);
+
+int findLowestSetBit(int num) {
+    if (num == 0)
+        return -1;  // No set bit found (all bits are 0)
+
+    int position = 1; // Position starts from 1 (LSB is at position 1)
     
+    while ((num & 1) == 0) {  // Check if the least significant bit is 0
+        num >>= 1;  // Right shift to check the next bit
+        position++; // Increment position
+    }
+
+    return position;
+}
+
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    int position = findLowestSetBit(num);
+    
+    if (position == -1)
+        printf("No set bit found (number is 0)\n");
+    else
+        printf("%d\n", position);
+
     return 0;
 }
