@@ -5,8 +5,8 @@ int main() {
     char operator;
 
     
-    printf("Enter two numbers: ");
-    scanf("%lf %lf %c", &num1, &num2, &operator);
+    
+    scanf("%d %d %c", &num1, &num2, &operator);
 
     // Perform calculation based on operator
     switch (operator) {
