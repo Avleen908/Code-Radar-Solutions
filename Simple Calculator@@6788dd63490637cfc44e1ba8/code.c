@@ -12,7 +12,7 @@ int main() {
     switch (operator) {
         case '+':
             result = num1 + num2;
-            printf("%.2lf\n", result);
+            printf("%d\n", result);
             break;
         case '-':
             result = num1 - num2;
@@ -20,11 +20,11 @@ int main() {
             break;
         case '*':
             result = num1 * num2;
-            printf("%.2lf\n", result);
+            printf("%d\n", result);
             break;
         case '/':
             if (num2 != 0)
-                printf("%.2lf\n", num1 / num2);
+                printf("%d\n", num1 / num2);
             else
                 printf("Error! Division by zero is not allowed.\n");
             break;
