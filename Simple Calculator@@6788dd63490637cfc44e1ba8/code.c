@@ -6,7 +6,7 @@ int main() {
 
     
     
-    scanf("%d %d %c", &num1, &num2, &operator);
+    scanf("%d %d  %c", &num1, &num2, &operator);
 
     // Perform calculation based on operator
     switch (operator) {
