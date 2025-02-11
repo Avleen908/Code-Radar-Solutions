@@ -5,7 +5,7 @@ void checkMSB(int num) {
     int msb = 1 << (bits - 1);  // Left shift 1 to the MSB position
 
     if (num & msb)
-        printf("set\n");
+        printf("Set\n");
     else
         printf("Not set\n");
 }
