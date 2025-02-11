@@ -9,7 +9,8 @@ int main(){
     while((num & 1)==0){
         num>>=1;
         position++;
+        printf("1\n");
     }
-    printf("1\n");
+    
     return 0;
 }
