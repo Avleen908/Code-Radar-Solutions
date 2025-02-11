@@ -11,7 +11,7 @@ int main(){
         position++;
        
     }
-    printf("%d",position)
+    printf("%d",position);
     
     return 0;
 }
