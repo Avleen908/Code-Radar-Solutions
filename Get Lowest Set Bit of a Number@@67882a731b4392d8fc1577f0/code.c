@@ -9,8 +9,9 @@ int main(){
     while((num & 1)==0){
         num>>=1;
         position++;
-        printf("%d\n",position);
+       
     }
+    printf("%d",position)
     
     return 0;
 }
