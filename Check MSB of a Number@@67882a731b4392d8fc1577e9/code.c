@@ -7,7 +7,7 @@ void checkMSB(int num) {
     if (num & msb)
         printf("Set\n");
     else
-        printf("Not set\n");
+        printf("Not Set\n");
 }
 
 int main() {
