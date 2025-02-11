@@ -9,7 +9,7 @@ int main(){
     while((num & 1)==0){
         num>>=1;
         position++;
-        printf("1\n");
+        printf("%d\n",position);
     }
     
     return 0;
