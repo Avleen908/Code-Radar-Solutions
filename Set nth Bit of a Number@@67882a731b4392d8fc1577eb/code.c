@@ -9,7 +9,11 @@ int main() {
     int n;
 
     // Taking input
-   scanf("%d %u",&n,&num);
+
+    scanf("%u", &num);
+
+    
+    scanf("%d", &n);
 
     // Validate bit position
     if (n < 0 || n >= sizeof(num) * 8) {
@@ -21,7 +25,7 @@ int main() {
     unsigned int newNum = setNthBit(num, n);
 
     // Printing the result
-    printf("%d\n", n);
+    printf("%d %u\n", n, newNum);
 
     return 0;
 }
