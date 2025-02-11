@@ -21,7 +21,7 @@ int main() {
     unsigned int newNum = setNthBit(num, n);
 
     // Printing the result
-    printf("%u\n", newNum);
+    printf("%d\n", n);
 
     return 0;
 }
