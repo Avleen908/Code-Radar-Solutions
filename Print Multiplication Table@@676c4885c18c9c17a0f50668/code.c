@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(){
-    int num;
-    scanf("%d",&num);
-    for(int=1;i<=10;i++){
-        printf("%d X %d = %d",num,i,num*i);
-    }
-    return 0;
-    
+   int a;
+   scanf("%d",&a);
+   for(int i=0;i<=n;i++){
+    printf("%d X %d = %d",a,i,a*i);
+   }
+   return 0;
 }
