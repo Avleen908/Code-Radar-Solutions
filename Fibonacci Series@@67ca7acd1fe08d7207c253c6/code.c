@@ -6,3 +6,4 @@ void fibonacciSeries(int n){
         a=b;
         b=next;
      }
+}
