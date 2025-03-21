@@ -6,6 +6,3 @@ void fibonacciSeries(int n){
         a=b;
         b=next;
      }
-     printf("%d",next);
-     return 0;
-}
