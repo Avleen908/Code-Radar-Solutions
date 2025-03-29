@@ -19,9 +19,7 @@ int main(){
     for(int i=0;i<size;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<size;i++){
-        printf("%d",arr[i]);
-    }
+
     maxminelement(arr,size);
     return 0;
 }
