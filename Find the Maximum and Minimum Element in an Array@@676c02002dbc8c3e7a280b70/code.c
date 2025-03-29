@@ -20,6 +20,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    maxminelement(arr,size);
+     int result=maxminelement(arr,size);
+     printf("%d",result);
     return 0;
 }
