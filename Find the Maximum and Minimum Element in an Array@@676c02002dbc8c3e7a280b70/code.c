@@ -1,25 +1,32 @@
- #include<stdio.h>
- int maxminelement(int arr[],int size){
-    int max,min=arr[0];
-    for(int i=0;i<size;i++){
-        if(arr[i]>max){
-            max=arr[i];
+ #include <stdio.h>
+
+void maxminelement(int arr[], int size, int *max, int *min) {
+    *max = arr[0];
+    *min = arr[0];
+
+    for (int i = 1; i < size; i++) {
+        if (arr[i] > *max) {
+            *max = arr[i];
         }
-        else{
-            min=arr[i];
+        if (arr[i] < *min) {
+            *min = arr[i];
         }
     }
-    return min ,max;
 }
-int main(){
+
+int main() {
     int size;
-    scanf("%d",&size);
+    scanf("%d", &size);
     int arr[size];
-    for(int i=0;i<size;i++){
-        scanf("%d",&arr[i]);
+
+    for (int i = 0; i < size; i++) {
+        scanf("%d", &arr[i]);
     }
 
-     int result=maxminelement(arr,size);
-     printf("%d",result);
+    int max, min;
+    maxminelement(arr, size, &max, &min);
+
+    printf("%d %d\n", min, max);
+
     return 0;
 }
