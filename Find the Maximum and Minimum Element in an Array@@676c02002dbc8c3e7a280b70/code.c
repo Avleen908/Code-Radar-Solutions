@@ -1,4 +1,5 @@
-int maxminelement(int arr[],int size){
+ #include<stdio.h>
+ int maxminelement(int arr[],int size){
     int max,min=arr[0];
     for(int i=0;i<size;i++){
         if(arr[i]>max){
