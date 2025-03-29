@@ -9,7 +9,7 @@
             min=arr[i];
         }
     }
-    return min,max;
+    return min ,max;
 }
 int main(){
     int size;
